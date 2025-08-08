@@ -25,5 +25,14 @@ class Program
         Console.WriteLine($"Circle area: {myCircle.GetArea()}");
         Console.WriteLine($"Rectangle area: {myRectangle.GetArea()}");
         Console.WriteLine();
+
+
+        // Part 3
+        Car myCar = new Car();
+        Bicycle myBicycle = new Bicycle();
+
+        Console.WriteLine("Part 3: Interfaces");
+        myCar.Move();
+        myBicycle.Move();
     }
 }
